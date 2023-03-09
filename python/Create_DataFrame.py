@@ -8,10 +8,14 @@ data={
 }
 
 df = pd.DataFrame(data)
-print(df)
+""" print(df)
 print(df.index)
 
 s= type(df[['year','pop']])
 print(df[['year','pop']])
 
 print(df.loc[0])
+
+ """
+print(df[['pop']])
+df.to_csv("out1.csv",index=False)
