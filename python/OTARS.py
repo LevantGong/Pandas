@@ -9,8 +9,8 @@ def get_now_time():
 if __name__ == '__main__':
     now_time = get_now_time()
     pd.set_option('display.unicode.east_asian_width',True)
-    df1 = pd.read_excel("./xlsx/推送计划23-03-16.xlsx",sheet_name='OCL')
-    df2 = pd.read_excel("./xlsx/推送计划23-03-16.xlsx",sheet_name='OE')
+    df1 = pd.read_excel("./xlsx/推送计划23-03-20.xlsx",sheet_name='OCL')
+    df2 = pd.read_excel("./xlsx/推送计划23-03-20.xlsx",sheet_name='OE')
     data1 =df1['GW Id']
     data2 =df2['GW Id']
     DF1 = pd.DataFrame(data1)
